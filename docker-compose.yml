@@ -1,0 +1,46 @@
+version: '2'
+
+services:
+  sitefiles:
+    image: busybox:latest
+    volumes:
+      - ${PWD}/wordpress:/var/www/html
+      - ${PWD}/wp-config.php:/var/www/html/wp-config.php
+      - ${PWD}/wp-content:/var/www/html/wp-content
+    command: "true"
+
+  mysql:
+    image: mariadb:latest
+    ports:
+      - "32769:3306"
+    volumes:
+      - "/var/lib/mysql"
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: wp_database
+      MYSQL_USER: wp_user
+      MYSQL_PASSWORD: wp_db_pass
+
+  phpfpm:
+    depends_on:
+      - mysql
+    image: mobeus/phpfpm:latest
+    build: .docker/php-fpm
+    volumes:
+      - ${PWD}/.docker/php-fpm/php.ini:/usr/local/etc/php/php.ini
+    volumes_from:
+      - sitefiles
+    restart: always
+
+  nginx:
+    ports:
+      - "8081:80"
+    depends_on:
+      - phpfpm
+    image: nginx:mainline-alpine
+    volumes:
+      - "${PWD}/.docker/nginx/default.conf:/etc/nginx/conf.d/default.conf"
+    volumes_from:
+      - sitefiles
+    restart: always

@@ -1,0 +1,2 @@
+#! /bin/bash
+PORT=32 docker-compose run --rm --user=www-data tools composer $@
