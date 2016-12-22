@@ -1,0 +1,36 @@
+/**
+ * Theme Name:  Engineering @ Growella
+ * Theme URI:   https://engineering.growella.com
+ * Author:      Growella
+ * Author URI:  https://growella.com
+ * Description: Child theme for Twenty Seventeen for the Growella development blog.
+ * License:     MIT
+ * License URI: https://opensource.org/licenses/MIT
+ * Text Domain: growella-eng
+ * Template:    twentyseventeen
+ *
+ * @package Growella\EngineeringBlog
+ */
+
+@import url('../twentyseventeen/style.css');
+
+/*
+ * Inline code samples.
+ */
+code {
+	padding: 0 .2em;
+	display: inline-block;
+	font-size: 85%;
+	background: #eee;
+	border-radius: 3px;
+}
+
+pre code {
+	padding: 0;
+	background: transparent;
+	border-radius: none;
+}
+
+#main .hljs {
+	background: transparent;
+}

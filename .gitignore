@@ -2,3 +2,8 @@ vendor
 /wordpress
 wp-content/*
 wp-config.php
+
+# Include the custom theme.
+!wp-content/themes/
+wp-content/themes/twentyseventeen
+!wp-content/themes/growella-engineering/
