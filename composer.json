@@ -14,7 +14,7 @@
         "composer/installers": "^1.2",
         "johnpbloch/wordpress": "^4.7",
         "wpackagist-plugin/jetpack": "^4.3",
-        "wpackagist-plugin/wordpress-seo": "^3.7",
+        "wpackagist-plugin/wordpress-seo": "^4.0",
         "wpackagist-plugin/wp-comment-humility": "^0.1.0",
         "wpackagist-plugin/google-analytics-for-wordpress": "^5.5",
         "wpackagist-plugin/amazon-s3-and-cloudfront": "^1.1",
