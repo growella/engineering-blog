@@ -35,3 +35,18 @@ function load_highlight_js() {
 	);
 }
 add_action( 'init', __NAMESPACE__ . '\load_highlight_js' );
+
+/**
+ * Apply additional formatting to author bios.
+ *
+ * @param string $bio The author bio.
+ * @return string The bio, better-filtered for display.
+ */
+function apply_content_filters_to_author_bio( $bio ) {
+	if ( is_author() ) {
+		$bio = apply_filters( 'the_content', $bio );
+	}
+
+	return $bio;
+}
+add_filter( 'get_the_archive_description', __NAMESPACE__ . '\apply_content_filters_to_author_bio' );
