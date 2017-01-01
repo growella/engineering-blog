@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ddc69d477b0d0cfce6b3611869b7001d",
-    "content-hash": "da7057db46924047dabb9687710cc77d",
+    "hash": "aaa9a15b5971b27e4a6560c746b4f386",
+    "content-hash": "5f03e2b187d27906c268de3002535aa9",
     "packages": [
         {
             "name": "composer/installers",
@@ -340,6 +340,26 @@
             "homepage": "https://wordpress.org/plugins/mcavoy/"
         },
         {
+            "name": "wpackagist-plugin/slack",
+            "version": "0.5.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/slack/",
+                "reference": "tags/0.5.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/slack.0.5.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/slack/"
+        },
+        {
             "name": "wpackagist-plugin/wordpress-seo",
             "version": "4.0.2",
             "source": {
@@ -350,7 +370,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.0.2.zip",
-                "reference": null,
+                "reference": "tags/4.0.2",
                 "shasum": null
             },
             "require": {
