@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5f03e2b187d27906c268de3002535aa9",
+    "content-hash": "4d1ed170821bcab70f00e1919d5e5539",
     "packages": [
         {
             "name": "composer/installers",
@@ -259,6 +259,26 @@
             "homepage": "https://wordpress.org/plugins/amazon-web-services/"
         },
         {
+            "name": "wpackagist-plugin/amp",
+            "version": "0.4.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/amp/",
+                "reference": "tags/0.4.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/amp.0.4.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/amp/"
+        },
+        {
             "name": "wpackagist-plugin/dovedi",
             "version": "1.1.0",
             "source": {
@@ -277,6 +297,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/dovedi/"
+        },
+        {
+            "name": "wpackagist-plugin/glue-for-yoast-seo-amp",
+            "version": "0.3.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/glue-for-yoast-seo-amp/",
+                "reference": "tags/0.3.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/glue-for-yoast-seo-amp.0.3.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/glue-for-yoast-seo-amp/"
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",

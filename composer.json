@@ -23,7 +23,9 @@
         "wpackagist-plugin/dovedi": "^1.1",
         "wpackagist-plugin/mcavoy": "^0.1.3",
         "wpackagist-theme/twentyseventeen": "^1.0",
-        "wpackagist-plugin/slack": "^0.5.1"
+        "wpackagist-plugin/slack": "^0.5.1",
+        "wpackagist-plugin/amp": "^0.4.2",
+        "wpackagist-plugin/glue-for-yoast-seo-amp": "^0.3.3"
     },
     "require-dev": {
         "antecedent/patchwork": "1.2.*",
