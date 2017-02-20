@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4d1ed170821bcab70f00e1919d5e5539",
+    "content-hash": "95fcb381a22fd7fbc1ec4583195f2d80",
     "packages": [
         {
             "name": "composer/installers",
@@ -229,7 +229,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.1.1.5.zip",
-                "reference": null,
+                "reference": "tags/1.1.5",
                 "shasum": null
             },
             "require": {
@@ -269,7 +269,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/amp.0.4.2.zip",
-                "reference": null,
+                "reference": "tags/0.4.2",
                 "shasum": null
             },
             "require": {
@@ -309,7 +309,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/glue-for-yoast-seo-amp.0.3.3.zip",
-                "reference": null,
+                "reference": "tags/0.3.3",
                 "shasum": null
             },
             "require": {
@@ -320,16 +320,16 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "5.5.4",
+            "version": "6.0.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/5.5.4"
+                "reference": "tags/6.0.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.5.4.zip",
-                "reference": "tags/5.5.4",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.6.0.3.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -349,7 +349,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/jetpack.4.6.zip",
-                "reference": null,
+                "reference": "tags/4.6",
                 "shasum": null
             },
             "require": {
@@ -409,7 +409,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.3.zip",
-                "reference": null,
+                "reference": "tags/4.3",
                 "shasum": null
             },
             "require": {
@@ -449,7 +449,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/twentyseventeen.1.1.zip",
-                "reference": null,
+                "reference": "1.1",
                 "shasum": null
             },
             "require": {
