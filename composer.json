@@ -19,7 +19,7 @@
         "wpackagist-plugin/google-analytics-for-wordpress": "^6.0",
         "wpackagist-plugin/amazon-s3-and-cloudfront": "^1.1",
         "wpackagist-plugin/amazon-web-services": "^1.0",
-        "wpackagist-plugin/advanced-post-excerpt": "^0.1",
+        "wpackagist-plugin/advanced-post-excerpt": "^0.2",
         "wpackagist-plugin/dovedi": "^1.1",
         "wpackagist-plugin/mcavoy": "^0.1",
         "wpackagist-theme/twentyseventeen": "^1.0",

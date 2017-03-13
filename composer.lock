@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "02ee4c44571a2db6719639f0b511d525",
+    "content-hash": "6f390066ce65b0223809a2b37c40883f",
     "packages": [
         {
             "name": "composer/installers",
@@ -200,16 +200,16 @@
         },
         {
             "name": "wpackagist-plugin/advanced-post-excerpt",
-            "version": "0.1.0",
+            "version": "0.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-post-excerpt/",
-                "reference": "tags/0.1.0"
+                "reference": "tags/0.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-post-excerpt.0.1.0.zip",
-                "reference": "tags/0.1.0",
+                "url": "https://downloads.wordpress.org/plugin/advanced-post-excerpt.0.2.1.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
