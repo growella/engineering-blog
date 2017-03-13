@@ -15,28 +15,31 @@
         "johnpbloch/wordpress": "^4.7",
         "wpackagist-plugin/jetpack": "^4.3",
         "wpackagist-plugin/wordpress-seo": "^4.0",
-        "wpackagist-plugin/wp-comment-humility": "^0.1.0",
-        "wpackagist-plugin/google-analytics-for-wordpress": "^5.5",
+        "wpackagist-plugin/wp-comment-humility": "^0.1",
+        "wpackagist-plugin/google-analytics-for-wordpress": "^6.0",
         "wpackagist-plugin/amazon-s3-and-cloudfront": "^1.1",
         "wpackagist-plugin/amazon-web-services": "^1.0",
-        "wpackagist-plugin/advanced-post-excerpt": "^0.1.0",
+        "wpackagist-plugin/advanced-post-excerpt": "^0.2",
         "wpackagist-plugin/dovedi": "^1.1",
-        "wpackagist-plugin/mcavoy": "^0.1.3",
+        "wpackagist-plugin/mcavoy": "^0.1",
         "wpackagist-theme/twentyseventeen": "^1.0",
-        "wpackagist-plugin/slack": "^0.5.1",
-        "wpackagist-plugin/amp": "^0.4.2",
-        "wpackagist-plugin/glue-for-yoast-seo-amp": "^0.3.3"
+        "wpackagist-plugin/slack": "^0.5",
+        "wpackagist-plugin/amp": "^0.4",
+        "wpackagist-plugin/glue-for-yoast-seo-amp": "^0.3"
     },
     "require-dev": {
         "antecedent/patchwork": "1.2.*",
         "phpunit/phpunit" : "*@stable",
         "brianium/paratest" : "dev-master",
         "10up/wp_mock" : "dev-master",
-        "stevegrunwell/wp-enforcer": "^0.4.1"
+        "stevegrunwell/wp-enforcer": "^0.4"
     },
     "scripts": {
         "post-install-cmd": [
             "bin/post-install.php",
+            "wp-enforcer"
+        ],
+        "post-update-cmd": [
             "wp-enforcer"
         ]
     }
