@@ -16,7 +16,7 @@
         "wpackagist-plugin/jetpack": "^4.3",
         "wpackagist-plugin/wordpress-seo": "^4.0",
         "wpackagist-plugin/wp-comment-humility": "^0.1",
-        "wpackagist-plugin/google-analytics-for-wordpress": "^5.5",
+        "wpackagist-plugin/google-analytics-for-wordpress": "^6.0",
         "wpackagist-plugin/amazon-s3-and-cloudfront": "^1.1",
         "wpackagist-plugin/amazon-web-services": "^1.0",
         "wpackagist-plugin/advanced-post-excerpt": "^0.1",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "35db99170b370976d6913cdddb6122f8",
+    "content-hash": "02ee4c44571a2db6719639f0b511d525",
     "packages": [
         {
             "name": "composer/installers",
@@ -320,15 +320,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "5.5.4",
+            "version": "6.0.16",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/5.5.4"
+                "reference": "tags/6.0.16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.5.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.6.0.16.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -349,7 +349,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/jetpack.4.7.zip",
-                "reference": null,
+                "reference": "tags/4.7",
                 "shasum": null
             },
             "require": {
@@ -409,7 +409,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.4.zip",
-                "reference": null,
+                "reference": "tags/4.4",
                 "shasum": null
             },
             "require": {
