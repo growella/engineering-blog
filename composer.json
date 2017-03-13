@@ -38,6 +38,9 @@
         "post-install-cmd": [
             "bin/post-install.php",
             "wp-enforcer"
+        ],
+        "post-update-cmd": [
+            "wp-enforcer"
         ]
     }
 }
