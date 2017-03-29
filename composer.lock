@@ -280,16 +280,16 @@
         },
         {
             "name": "wpackagist-plugin/dovedi",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/dovedi/",
-                "reference": "tags/1.1.0"
+                "reference": "tags/1.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/dovedi.1.1.0.zip",
-                "reference": "tags/1.1.0",
+                "url": "https://downloads.wordpress.org/plugin/dovedi.1.1.1.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
